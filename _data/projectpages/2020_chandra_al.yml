@@ -1,0 +1,16 @@
+title: "Active Learning with Point Supervision for Cost-Effective Panicle Detection in Cereal Crops"
+authors: "Akshay L Chandra-1, Sai Vikas Desai-1, S. Ninomiya-2, Wei Guo-2, V. Balasubramanian-1"
+venue: "BMC Plant Methods Journal (2020)"
+affiliations: "1-IIT Hyderabad, 2-The University of Tokyo"
+display_image: 2020_chandra_al.png
+abstract: "Panicle density of cereal crops such as wheat and sorghum is one of the main components for plant breeders and agronomists in understanding the yield of their crops. To phenotype the panicle density effectively, researchers agree there is a significant need for computer vision-based object detection techniques. Especially in recent times, research in deep learning-based object detection shows promising results in various agricultural studies. However, training such systems usually requires a lot of bounding-box labeled data. Since crops vary by both environmental and genetic conditions, acquisition of huge amount of labeled image datasets for each crop is expensive and time-consuming. Thus, to catalyze the widespread usage of automatic object detection for crop phenotyping, a cost-effective method to develop such automated systems is essential. We propose a point supervision based active learning approach for panicle detection in cereal crops. In our approach, the model constantly interacts with a human annotator by iteratively querying the labels for only the most informative images, as opposed to all images in a dataset. Our query method is specifically designed for cereal crops which usually tend to have panicles with low variance in appearance. Our method reduces labeling costs by intelligently leveraging low-cost weak labels (object centers) for picking the most informative images for which strong labels (bounding boxes) are required. We show promising results on two publicly available cereal crop datasets - Sorghum and Wheat. On Sorghum, 6 variants of our proposed method outperform the best baseline method with more than 55% savings in labeling time. Similarly, on Wheat, 3 variants of our proposed methods outperform the best baseline method with more than 50% of savings in labeling time."
+contact: "If you have any questions about this work, please contact us at <span style='color:blue'>vineethnb@iith.ac.in, guowei@g.ecc.u-tokyo.ac.jp</span>"
+acknowledgements: "This study was partially funded by Indo-Japan DST-JST SICORP program “Data Science-based Farming Support System for Sustainable Crop Production under Climatic Change” and CREST Program “Knowledge Discovery by Constructing AgriBigData” (JPMJCR1512) from Japan Science and Technology Agency"
+materials:
+  paper_url: https://arxiv.org/abs/1910.01789
+  bibtex: "@article{Lagandula2020ActiveLW,
+  title={Active learning with point supervision for cost-effective panicle detection in cereal crops},
+  author={Akshay L Chandra, and Sai Vikas Desai and Vineeth N. Balasubramanian and S. Ninomiya and Wei Guo},
+  journal={Plant Methods},
+  year={2020},
+  volume={16}}"

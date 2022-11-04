@@ -1,0 +1,49 @@
+# - date:
+#   headline:
+
+# If there is a colon in your text use double quotes
+
+- date: May 2022
+  headline: Now learn music with computer assisted tools in our Music Course, <b class='highlight'>SWARANJALI</b>. Click <a href="https://vipular.github.io/stuff/2022_musicCourse"target=&ldquo;blank&rdquo;>here</a> to register.
+
+- date: Feb 2022
+  headline: Recieved the <a href="https://vipular.github.io/stuff/2022_nltmProject"target=&ldquo;blank&rdquo;>grant</a> for Spoken Term Detection from National Language Technologies Mission. Congratulations team and thank you NLTM!
+
+- date: Aug 2021
+  headline: Congratulations to Swapnil, Vartika and Tharun for first position in the <a href="https://www.neuroergonomicsconference.um.ifi.lmu.de/pbci/"target=&ldquo;blank&rdquo;>NEC 2021 grand challenge</a>, a passive BCI Hackathon to decode mental workload from EEG signals.
+
+- date: Dec 2021
+  headline: Our work on a dataset and new metrics for causal disentanglement accepted at <b class='highlight'>AAAI 2022</b>. Congratulations, Gowtham and Benin!
+
+- date: Nov 2021
+  headline: 7 papers accepted at WACV 2022.
+
+- date: Oct 2021
+  headline: Our work on <a href="https://arxiv.org/abs/2003.08798">incremental object detection</a> is accepted at <b class='highlight'>PAMI</b>. Congratulations to Joseph, this is joint work with MBZUAI, Abu Dhabi.
+
+- date: Sep 2021
+  headline: Two papers accepted at accepted at <b class='highlight'>NeurIPS 2021</b>, please see the details <a href="https://lab1055.github.io/research/publications/">here</a>. Congratulations to Sandesh, Anindya, Anirban and Sowrya!
+
+- date: Jul 2021
+  headline: Dr. Vineeth's course on Deep Learning for Computer Vision on NPTEL is being re-offered from Jul-Oct 2021; here is <a href="https://onlinecourses.nptel.ac.in/noc21_cs93/preview" target=&ldquo;blank&rdquo;>the link</a> for those interested to register.
+
+- date: Jun 2021
+  headline: Congratulations to Dr. Vineeth, Puneet, Vedant and Shreyas - an all-undergrad team on winning the <b class='highlight'>Best Paper Award</b> at the <a href="https://aisecure-workshop.github.io/amlcvpr2021/" target=&ldquo;blank&rdquo;>Adversarial Machine Learning in Real-World Computer Vision Systems and Online Challenges workshop</a> at CVPR 2021. We are grateful to Analytics India Magazine for <a href="https://analyticsindiamag.com/exclusive-meet-the-iit-hyderabad-team-that-won-the-best-paper-awards-at-cvpr-2021/" target=&ldquo;blank&rdquo;>their article</a> featuring this work. 
+
+- date: May 2021
+  headline: Congratulations to Dr. Vineeth, Gowtham and Benin on winning the <b class='highlight'>Best Paper Award</b> at the <a href="https://www.causalityinvision.com/" target=&ldquo;blank&rdquo;>Causality in Vision workshop</a> at CVPR 2021.
+
+- date: May 2021
+  headline: Congratulations to Sai Srinivas on being awarded the prestigious Prime Minister's Research Fellowship (PMRF), the 3rd PMRF Fellow in our group!
+
+- date: May 2021
+  headline: Find Dr. Vineeth's interview by Analytics India Magazine <a href="https://analyticsindiamag.com/interview-with-vineeth-balasubramanian-head-of-ai-iit-hyderabad/" target=&ldquo;blank&rdquo;>here</a>.
+
+- date: Mar 2021
+  headline: We are delighted to announce that Dr. Vineeth has received the <b class='highlight'>Google Research Scholar Award </b> (earlier known as Google Faculty Research award). Our group is grateful to Google Research for their support.
+
+- date: Mar 2021
+  headline: Congratulations to Dr. Vineeth for the recognition as Outstanding Reviewer at <b class='highlight'>ICLR 2021</b>.
+
+- date: Mar 2021
+  headline: Our work on open-world object detection is accepted at <b class='highlight'>CVPR 2021</b> (as Oral). Congratulations to Joseph! This is joint work with MBZUAI, Abu Dhabi.

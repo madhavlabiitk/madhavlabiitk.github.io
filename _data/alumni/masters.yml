@@ -1,0 +1,100 @@
+# Please use this template
+# - name:
+#   info:
+#   # optional
+#   next:
+#   webpage:
+#   accomplishments:
+
+
+- name: Sai Vikas Desai
+  info: 2017 - 20
+  next: Qualcomm
+  # optional
+  webpage: https://svdesai.github.io/
+  accomplishments: Excellence in Research Award in CSE, 2020
+
+- name: Sai Eswar Garapati
+  info: 2019 - 20
+  next: Broadcom
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Smruti Charkha
+  info: 2019-20
+  next:
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Uttaran Sinha
+  info: "2018 - 20"
+  next: RA IIT-H -> Applied Scientist, Amazon
+  # optional
+  webpage: https://uttaransinha.github.io/ 
+
+- name: Nehal Mamgain
+  info: 2018 - 19
+  next: Toyota Research Institute, Tokyo
+  # optional
+  webpage:
+  accomplishments: Silver Medal for Academic Excellence in MTech in CSE
+
+- name: Smrutiranjan Sahu
+  info: 2018 - 19
+
+- name: Supriya Pandre
+  next: Adobe -> Max Planck -> PhD, Simon Fraser University
+  # optional 
+  webpage: https://supriya-pandhre.github.io/
+  accomplishments:
+
+- name: Krishnakant Singh
+  info: 2017 - 18 
+  next: Rakuten Research, Japan
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Mehak
+  info: 2017 - 18 
+  next: Microsoft
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Mausam Jain
+  info: 2016-17
+  next: Rakuten, Japan
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Mittal Desai
+  info: 2015-16
+  next: Founder, Evangelysis
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Bharat Bhusan Sau
+  info: 2015 - 16
+  next: Mobiliya R&D
+  # optional
+  webpage: 
+  accomplishments:
+
+- name: Anjali Singh
+  info: 2014 - 15
+  next: Strand Life Sciences
+  # optional
+  webpage: 
+  accomplishments:
+
+- name: Parag Jain
+  info: 2014-15
+  next:  Amazon -> IBM Research -> PhD, Univ of Edinburgh
+  # optional
+  webpage: http://pj-parag.github.io/about/
+  accomplishments:

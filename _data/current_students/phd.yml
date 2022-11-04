@@ -1,0 +1,76 @@
+#- name: Kavya Ranjan Saxena
+#  photo: kavyars.jpg
+#  desig: PhD Student
+#  info: "**Visvesvaraya Fellow**, 2018 - Present (Co-advisor, Advisor: [Prof Srijith P K](https://sites.google.com/site/pksrijith/home), IIT-H)"
+#  id: kavyars
+#  email: kavyars@iitk.ac.in
+#  webpage: https://sites.google.com/iith.ac.in/anirbansarkar
+#  google-scholar: https://scholar.google.co.in/citations?user=9UF4mT0AAAAJ&hl=en
+#  affiliations: IIT Kanpur
+#  topics: Music Information Retrieval
+
+- name: Kavya Ranjan Saxena
+  photo: kavyars.jpg
+  desig: PhD Student
+  info: "2018 - Present"
+  id: kavyars
+  email: kavyars@iitk.ac.in
+  affiliations: IIT Kanpur
+  topics: Melody Extraction from Polyphonic Audio using machine learning
+
+- name: Sumit Kumar 
+  info: "2018 - Present"
+  email: krsumit@iitk.ac.in
+  id: krsumit
+  webpage: https://www.linkedin.com/in/sumit-kumar-368b52170
+  affiliations: IIT Kanpur
+  photo: krsumit.jpg
+  topics: Audio Event Detection
+
+- name: Adhiraj Banerjee
+  info: "2019 - Present"
+  email: adhiraj@iitk.ac.in
+  id: adhiraj
+  #webpage: https://www.linkedin.com/in/sumit-kumar-368b52170
+  affiliations: IIT Kanpur
+  photo: adhiraj.jpg
+  topics: Representation Learning
+
+- name: Anup Singh
+  photo: sanup.jpg
+  desig: PhD Student
+  info: "2019 - Present (Co-advisor, Advisor: [Prof Kris Demuynk](https://ai.ugent.be/people/KrisDemuynck.en.html), IDLab, Ghent University, Belgium)"
+  id: sanup
+  webpage: https://www.linkedin.com/in/anup-singh-a84a7476/
+  email: sanup@iitk.ac.in
+  affiliations: IIT Kanpur
+  topics: Content-based Semantic Audio Search Systems
+
+- name: Ankur Singha
+  photo: placeholder.jpg
+  desig: PhD Student
+  info: "2020 - Present"
+  id: ankurs
+  email: ankurs@iitk.ac.in
+  affiliations: IIT Kanpur
+  topics: ML for Physics
+
+- name: Akanksha Singh
+  photo: akankss20.jpg
+  desig: PhD Student
+  info: "2020 - Present"
+  id: akankss20
+  email: akankss20@iitk.ac.in
+  #webpage: "https://www.linkedin.com/in/parampreet-singh-b2765721b/"
+  affiliations: IIT Kanpur
+  topics: Spoken Term Detection
+
+- name: Parampreet Singh
+  photo: params21.jpg
+  desig: PhD Student
+  info: "2021 - Present"
+  id: params21
+  email: params21@iitk.ac.in
+  webpage: "https://www.linkedin.com/in/parampreet-singh-b2765721b/"
+  affiliations: IIT Kanpur
+  topics: To be decided

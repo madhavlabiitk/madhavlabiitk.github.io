@@ -1,0 +1,96 @@
+# Please use this template
+# - year:
+#   title:
+#   authors:
+#   venue:
+#   paper:
+#     url:
+#   code:
+#     url:
+#   project_page:
+#     url:
+
+- year: 2021
+  title: "Domain adaptation based deep calibration of low-cost PM2.5 sensors"
+  authors: Sonu Kumar Jha, Mohit Kumar, Vipul Arora, Sachchida Nand Tripathi, Vidyanand Motiram Motghare and A. A. Shingare
+  venue: "IEEE Sensors Journal, Oct 2021"
+  paper:
+    url: https://ieeexplore.ieee.org/document/9567697
+
+- year: 2021
+  title: "EEG Based Drowsiness Detection With Fuzzy Independent Phase Locking Value Representations Using Lagrangian Based Deep Neural Networks"
+  authors: Tharun Kumar Reddy, Vipul Arora, Rupam Biswas, Vinay Gupta and Laxmidhar Behera
+  venue: "IEEE Transactions on Systems, Man and Cybernetics: Systems, Oct 2021"
+  paper:
+    url: https://ieeexplore.ieee.org/document/9565224/
+
+- year: 2021
+  title: "Generative models for sampling and phase transition indication in spin systems"
+  authors: Japneet Singh, Mathias S Scheurer and Vipul Arora
+  venue: "Scipost Physics, Aug 2021"
+  paper:
+    url: https://arxiv.org/abs/2006.11868
+
+- year: 2019
+  title: "Electroencephalogram based reaction time prediction with differential phase synchrony representations using co-operative multi-task deep neural networks"
+  authors: Tharun Kumar Reddy, Vipul Arora, Satyam Kumar, Laxmidhar Behera, Yukai Wang and Chin-Teng Lin
+  venue: "IEEE Transactions on Emerging Topics in Computational Intelligence, Sep 2019"
+  paper:
+    url: https://ieeexplore.ieee.org/document/8846113
+
+- year: 2019
+  title: "Multi-class Fuzzy Time-delay Common Spatio-Spectral Patterns with Fuzzy Information Theoretic optimization for EEG based Regression Problems in Brain Computer Interface (BCI)"
+  authors: Tharun Kumar Reddy, Vipul Arora, Laxmidhar Behera, Yukai Wang and Chin-Teng Lin
+  venue: "IEEE Transactions on Fuzzy Systems, Jan 2019"
+  paper:
+    url: https://ieeexplore.ieee.org/document/8611122
+
+- year: 2018
+  title: "HJB-Equation-Based Optimal Learning Scheme for Neural Networks With Applications in Brain Computer Interface"
+  authors: Tharun Kumar Reddy, Vipul Arora and Laxmidhar Behera
+  venue: "IEEE Transactions on Emerging Topics in Computational Intelligence, Aug 2018"
+  paper:
+    url: https://ieeexplore.ieee.org/document/8437157
+
+- year: 2018
+  title: "Phonological feature-based ASR for mispronunciation detection and corrective feedback in L2 learning"
+  authors: Vipul Arora, Aditi Lahiri and Henning Reetz
+  venue: "Journal of Acoustical Society of America (JASA), Jan 2018"
+  paper:
+    url: https://asa.scitation.org/doi/10.1121/1.5017834
+
+- year: 2015
+  title: "Multiple F0 Estimation and Source Clustering of Polyphonic Music Audio Using PLCA and HMRFs"
+  authors: Vipul Arora and Laxmidhar Behera
+  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing, Jan 2015"
+  paper:
+    url: https://ieeexplore.ieee.org/document/7001182
+
+- year: 2014
+  title: "Musical source clustering and identification in polyphonic audio"
+  authors: Vipul Arora and Laxmidhar Behera
+  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing, March 2014"
+  paper:
+    url: https://ieeexplore.ieee.org/document/6777516
+
+- year: 2012
+  title: "On-line melody extraction from polyphonic audio using harmonic cluster tracking"
+  authors: Vipul Arora and Laxmidhar Behera
+  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing, Nov 2012"
+  paper:
+    url: https://ieeexplore.ieee.org/document/6353544
+
+- year: Other
+  title: 'Batch Mode Active Learning for Multimedia Pattern Recognition'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: 7th Annual Machine Learning Symposium, New York Academy of Sciences, New York, USA, Oct 2012.
+
+- year: Other
+  title: 'Confidence Estimation in Pattern Classification: An Analysis with Head Pose Estimation'
+  authors: V. Balasubramanian, S. Chakraborty, S. Panchanathan
+  venue: Technical Report TR-09-12, School of Computing and Informatics, Arizona State University, Jul 2009.
+
+- year: Other
+  title: 'Haptic Belt for Delivering Nonverbal Cues to People who are Blind/Visually Impaired'
+  authors: S. Krishna, T. McDaniel, V. Balasubramanian, D. Colbry, S. Panchanathan
+  venue: 24th Annual International Technology and Persons with Disabilities Conference (CSUN’09), Los Angeles, USA, Mar 2009.

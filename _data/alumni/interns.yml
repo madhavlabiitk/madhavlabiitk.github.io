@@ -1,0 +1,41 @@
+# - name: 
+#   info: 
+#   next: 
+#   # optional
+#   webpage: 
+#   accomplishments: 
+
+- name: Sanny Kim
+  info: Minerva KGI, USA
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: G Sai Sudheer
+  info: Persistent Systems
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Aditya A
+  info: NIT-Surathkal
+  next: Masters, CMU
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Abarna Venkat
+  info: PSG-Coimbatore
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Kamal Awasthi
+  info: 2017 - 18 (IIIT-Vadodara)
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 

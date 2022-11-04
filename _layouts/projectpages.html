@@ -1,0 +1,149 @@
+---
+layout: default
+---
+
+<!-- {{ content }} -->
+{% assign project_data = site.data.projectpages.[page.nav_title] %} {% assign authors =
+site.data.projectpages.[page.nav_title].authors | split: ", " %} {% assign affiliations =
+site.data.projectpages.[page.nav_title].affiliations | split: ", " %} {% assign venue =
+site.data.projectpages.[page.nav_title].venue %} {% assign bibtex = project_data.materials.bibtex %} {%
+assign bibtexcopied = false %}
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12" style="text-align: center;">
+      <!-- Title -->
+      <h2>{{ project_data.title}}</h2>
+
+      <!-- Authors list -->
+      <div class="authors">
+        {% for author in authors %} {% assign name = author | split: "-" %}
+        <div class="author">
+          {{ name[0] }}<sup class="affs">{{ name[1] | replace: ";", "," }}</sup>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Affiliations -->
+      <div class="authors" style="margin-top: 10px; font-size: 16px;">
+        {% for author in affiliations %} {% assign name = author | split: "-" %}
+        <div class="author"><sup class="affs">{{ name[0] }}</sup>{{ name[1] }}</div>
+        {% endfor %}
+      </div>
+
+      <!-- Accepted by -->
+      <div class="authors" style="margin-top: 30px;">
+        {% for author in venue %}
+        <div class="author">
+          {{ author }}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <!-- If there is an image add here -->
+  <!-- <div class="row">
+  </div> -->
+  <!-- display image -->
+  {% if project_data.display_image.size > 0 %}
+  <div class="row" style="padding: 10px 50px;">
+    <div class="col-sm-12">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/{{project_data.display_image}}" />
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="row">
+    <div class="col-sm-8">
+      <h3>Abstract</h3>
+      <p style="font-size: 16px;">
+        {{ project_data.abstract }}
+      </p>
+      {% if project_data.youtube_url %}
+      <br />
+      <h3>Overview Video</h3>
+      <div>
+        <iframe
+          width="670"
+          height="415"
+          src="{{project_data.youtube_url}}"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="border-radius: 10px;"
+        ></iframe>
+      </div>
+      {% endif %} {% if project_data.acknowledgements %}
+      <br />
+      <h3>Acknowledgements</h3>
+      <p style="font-size: 16px;">
+        {{ project_data.acknowledgements }}
+      </p>
+      {% endif %} {% if project_data.contact %}
+      <br />
+      <h3>Contact</h3>
+      <p style="font-size: 16px;">
+        {{ project_data.contact }}
+      </p>
+      {% endif %}
+    </div>
+    <div class="small-materials col-sm-4">
+      <h3>Materials</h3>
+      <ul style="padding-left: 0; list-style-type: none; font-size: 16px;">
+        {% if project_data.materials.paper_url %}
+        <li>
+          <a
+            target="_blank"
+            style="color: #f4733e;"
+            href="{{project_data.materials.paper_url}}"
+            target="_blank"
+            ><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Paper</a
+          >
+        </li>
+        {% endif %} {% if project_data.materials.code_url %}
+        <li>
+          <a target="_blank" style="color: #f4733e;" href="{{project_data.materials.code_url}}"
+            ><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Code</a
+          >
+        </li>
+        {% endif %} {% if project_data.materials.bibtex %}
+        <li>
+          <a style="color: #f4733e;" onclick="copyToClipboard('{{ bibtex }}')">
+            <span class="glyphicon glyphicon-copy" aria-hidden="true"></span>
+            <span id="bibText" style="cursor: pointer;">Copy Bibtex</span>
+          </a>
+        </li>
+        {% endif %} {% if project_data.materials.poster_url %}
+        <li>
+          <a target="_blank" style="color: #f4733e;" href="{{project_data.materials.poster_url}}"
+            ><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Poster</a
+          >
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+  <input id="just_for_copy" style="position: absolute; left: -999999px;" />
+</div>
+
+<script>
+  function copyToClipboard(bibtex) {
+    document.getElementById('just_for_copy').value = bibtex;
+
+    var justForCopy = document.getElementById('just_for_copy');
+
+    justForCopy.select();
+
+    document.execCommand('copy');
+
+    /* Alert the copied text */
+    // alert("Copied the text: " + .value);
+
+    var textField = document.getElementById('bibText');
+    textField.innerHTML = 'Copied!';
+
+    setTimeout(() => {
+      textField.innerHTML = 'Copy Bibtex';
+    }, 1500);
+  }
+</script>

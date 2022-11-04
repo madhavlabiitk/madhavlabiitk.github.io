@@ -1,0 +1,19 @@
+- name: Sagar Dutta
+  photo: sagard.jpg
+  desig: PostDoc
+  info: "2022 - Present"
+  id: sagard
+  email: sagard@iitk.ac.in
+  google-scholar: https://scholar.google.co.in/
+  affiliations: IIT Kanpur
+  topics: Archival Audio Content Retrieval
+  
+- name: Nagarathna R 
+  photo: placeholder-f.jpg
+  desig: PostDoc
+  info: "2022 - Present"
+  id: rathna
+  email: rathna@iitk.ac.in
+  google-scholar: https://scholar.google.co.in/
+  affiliations: IIT Kanpur
+  topics: Automatic Speech Recognition

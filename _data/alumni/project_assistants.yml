@@ -1,0 +1,38 @@
+# - name: 
+#   info: 
+#   next: 
+#   # optional
+#   webpage: 
+#   accomplishments: 
+
+- name: Abhishek Panchal
+  info: 2019 - 20
+  next: PhD, Singapore
+  webpage: https://google.com/
+
+- name: Abhishek Rai
+  info: "Jan 2020 - May 22"
+  next: Sr. Poject Associate, Prof. Rajesh M Hegde
+  # optional
+  webpage: https://google.com/
+
+- name: Aishwarya Sainath
+  info: "Feb 2020 - Sep 2020"
+  next: Unknown
+
+- name: Prabal Pratap
+  info: "July 2020 - Sep 2021"
+  next: Tech Mahindra
+  webpage: https://google.com/
+
+- name: Vishwajeet Choubey
+  info: "Aug 2020 - June 2022"
+  next: CEO, Worldwin Coder
+  webpage: https://google.com/
+
+- name: Chand Kiran
+  info: Feb 2022 - May 2022 
+  next: PhD, EPFL
+  # optional
+  webpage: https://scholar.google.com/citations?user=pkc2DDkAAAAJ&hl=en
+  accomplishments: 

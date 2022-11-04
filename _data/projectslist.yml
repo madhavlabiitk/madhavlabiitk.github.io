@@ -1,0 +1,23 @@
+- name: 'example'
+  url: 'projectpages/example'
+  data: 'projectpages/example.md'
+
+- name: '2020_puneet_saliency'
+  url: 'projectpages/2020_puneet_saliency'
+  data: 'projectpages/2020_puneet_saliency.md'
+
+- name: '2020_chandra_al'
+  url: 'projectpages/2020_chandra_al'
+  data: 'projectpages/2020_chandra_al.md'
+
+- name: '2020_jandial_retrospective'
+  url: 'projectpages/2020_jandial_retrospective'
+  data: 'projectpages/2020_jandial_retrospective.md'
+  
+- name: '2020_mangla_charting'
+  url: 'projectpages/2020_mangla_charting'
+  data: 'projectpages/2020_mangla_charting.md'
+
+- name: '2021_joseph_owod'
+  url: 'projectpages/2021_joseph_owod'
+  data: 'projectpages/2021_joseph_owod.md'

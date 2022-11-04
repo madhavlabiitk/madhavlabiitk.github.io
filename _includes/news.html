@@ -1,0 +1,11 @@
+<div class="well">
+  <h3 style="text-decoration: underline;">News</h3>
+  {% for article in site.data.imp_news limit:1 %}
+  <p style="background: #f4733e61; padding: 10px; border-radius: 10px;";><span style="font-family: monaco, monospace;">{{ article.headline }}</p>
+  {% endfor %}
+  {% for article in site.data.news limit:13 %}
+  <p><b><span style="font-family: monaco, monospace;">{{ article.date }}</span>: </b>{{ article.headline }}</p>
+  {% endfor %}
+
+  <h4><a href="{{ site.url }}{{ site.baseurl }}/resources">... see all News</a></h4>
+</div>

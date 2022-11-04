@@ -1,0 +1,24 @@
+title: "Towards Open-World Object Detection"
+authors: "Joseph K J-1, Salman Khan-2,3, Fahad Khan-2,4, V. Balasubramanian-1"
+venue: "Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR’21), Jun 2021 (Oral Paper)"
+affiliations: "1-IIT Hyderabad, 2-MBZUAI Abu Dhabi, 3-Australian National University, 4-Linkoping University Sweden"
+display_image: 2021_joseph_owod.png
+abstract: "Humans have a natural instinct to identify unknown object instances in their environments. The intrinsic curiosity about these unknown instances aids in learning about them, when the corresponding knowledge is eventually available. This motivates us to propose a novel computer vision problem called: Open World Object Detection, where a model is tasked to:
+</br></br>
+1. Identify objects that have not been introduced to it as `unknown', without explicit supervision to do so, and </br>
+2. Incrementally learn these identified unknown categories without forgetting previously learned classes, when the corresponding labels are progressively received.
+</br></br>
+We formulate the problem, introduce a strong evaluation protocol and provide a novel solution, which we call ORE: Open World Object Detector, based on contrastive clustering and energy based unknown identification. Our experimental evaluation and ablation studies analyse the efficacy of ORE in achieving Open World objectives. As an interesting by-product, we find that identifying and characterising unknown instances helps to reduce confusion in an incremental object detection setting, where we achieve state-of-the-art performance, with no extra methodological effort. We hope that our work will attract further research into this newly identified, yet crucial research direction."
+contact: "If you have any questions about this work, please contact at <span style='color:blue'>cs17m18p100001@iith.ac.in</span>"
+acknowledgements: "Our code base is build on top of Detectron 2 library."
+materials:
+  paper_url: https://arxiv.org/abs/2103.02603
+  code_url: https://github.com/JosephKJ/OWOD
+  bibtex: "@inproceedings{joseph2021open,
+  title={Towards Open World Object Detection},
+  author={K J Joseph and Salman Khan and Fahad Shahbaz Khan and Vineeth N Balasubramanian},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2021)},
+  eprint={2103.02603},
+  archivePrefix={arXiv},
+  year={2021}
+}"

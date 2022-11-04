@@ -1,0 +1,23 @@
+title: "Neural Network Attributions: A Causal Perspective"
+# If only one affiliation, just keep the names, ignore all numbers and hyphens
+authors: "Aditya Chattopadhyay-1;2, Piyushi Manupriya-1, Anirban Sarkar-1;2;3, Vineeth N Balasubramanian-1;3" 
+# Venues should not have commas in the text (should fix later)
+venue: "International Joint Conference on Artificial Intelligence (IJCAI’19)"
+# If only one affliation keep the hyphen without the number i.e., -IIT Hyderabad
+affiliations: "1-IIT Hyderabad, 2-IIT Hyderabad2, 3-IIT Hyderabad3" 
+# Display image should be present in images directory
+display_image: "page1_image.png"
+abstract: "We propose a new attribution method for neural networks developed using first principles of causality (to the best of our knowledge, the first such). The neural network architecture is viewed as a Structural Causal Model, and a methodology to compute the causal effect of each feature on the output is presented. With reasonable assumptions on the causal structure of the input data, we propose algorithms to efficiently compute the causal effects, as well as scale the approach to data with large dimensionality. We also show how this method can be used for recurrent neural networks. We report experimental results on both simulated and real datasets showcasing the promise and usefulness of the proposed algorithm."
+# Use only embed link (Video Page > Share > Embed > Copy just the youtube link (and ignore other embedding code)
+youtube_url: 'https://www.youtube.com/embed/yfBwePSC6PU'
+contact: "If you have any questions about this work, please contact us under <span style='color:blue'>abc@email.com</span>"
+acknowledgements: 'We are grateful to the Ministry of Human Resource Development, India; Department of Science and Technology, India; as well as Honeywell India for the financial support of this project through the UAY program. We also thank the Japan International Cooperation Agency and IIT-Hyderabad for the provision of GPU servers used for this work. We thank the anonymous reviewers for their valuable feedback, as well as <AB> and <CD> (could be names of others in the group) for all the insightful discussions, that improved the presentation of this work'
+materials:
+  paper_url: 'https://google.com'
+  code_url: 'https://github.com/lab1055'
+  bibtex: 'Loremsum ipsum'
+  poster_url: 'https://tdchaitanya.github.io/assets/pdf/chaitanyammtod2019_poster.pdf'
+
+# IMPORTANT
+# Once you create this yml file, you must also add an "example.md" file to  _pages/projectpages/ and enter the details in _data/projectlist.yml
+# Then add this in _data/publist.yml under project_page: url: example

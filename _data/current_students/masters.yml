@@ -1,0 +1,41 @@
+
+- name: Swapnil Dey
+  photo: placeholder.jpg
+  desig: MS(R) Student
+  info: "2019 - Present"
+  id: cs19mtech11025
+  email: cs19mtech11025@iith.ac.in
+  webpage: https://tdchaitanya.github.io/
+  topics: Semantic Learning
+
+- name: Jagadeesh K. Babu
+  photo: placeholder.jpg
+  desig: MS(R) Student
+  info: "2020 - Present"
+  id: ai19mtech11001
+  email: ai19mtech11001@iith.ac.in
+  topics: Music information retrieval
+
+- name: Kalpit Yadav
+  photo: placeholder.jpg
+  desig: MS(R) Student
+  info: "2020 - Present"
+  id: cs18mtech11020
+  email: cs18mtech11020@iith.ac.in
+  topics: Sensor calibration
+
+- name: Nishant Kumar
+  photo: placeholder.jpg
+  desig: MS(R) Student
+  info: "2020 - Present"
+  id: cs20mtech12002
+  email: cs20mtech12002@iith.ac.in
+  topics: ML with imbalanced data
+
+- name: Gaurav Tank
+  photo: placeholder.jpg
+  desig: MS(R) Student
+  info: "2020 - Present"
+  id: cs20mtech12001
+  email: cs20mtech12001@iith.ac.in
+  topics: Music information retrieval

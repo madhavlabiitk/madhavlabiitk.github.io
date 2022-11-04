@@ -1,0 +1,142 @@
+---
+layout: default
+---
+
+
+<!-- <nav class="nav nav-pills nav-fill">
+  <a class="nav-item nav-link active" href="#">Active</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link disabled" href="#">Disabled</a>
+</nav> -->
+
+<h1 class='page-header'>
+  Group Members
+  </h1>
+  
+<div id="gridid" class="col-sm-12">
+  <h3>Faculty</h3>
+  {% assign number_printed = 0 %}
+  {% for member in site.data.faculty %}
+  
+  {% assign even_odd = number_printed | modulo: 2 %}
+  
+  {% if even_odd == 0 %}
+  <div class="row">
+  {% endif %}
+  
+  <div class="col-sm-6 clearfix">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+    <h4><a href='{{ member.webpage }}' target='_blank'>{{ member.name }}</a></h4>
+    <i>{{ member.info }}
+    <br>email: <{{ member.email }}></i><br>
+    <!-- email, gscholar -->
+    <div class="" style="display: flex">
+    {% if member.email.size > 0 %}
+    <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
+    {% endif %}
+    {% if member.google-scholar.size > 0 %}
+    <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
+    {% endif %}
+    </div>
+    <div>
+      <a href="{{ site.url }}{{ site.baseurl }}/vineethnb/courses" target="_blank">Courses</a>, 
+      <a href="{{ site.url }}{{ site.baseurl }}/vineethnb/tutorials" target="_blank">Tutorials</a> and 
+      <a href="{{ site.url }}{{ site.baseurl }}/vineethnb/talks" target="_blank">Talks</a>
+    </div>
+    </div>
+  
+  {% assign number_printed = number_printed | plus: 1 %}
+  
+  {% if even_odd == 1 %}
+  </div>
+  {% endif %}
+  
+  {% endfor %}
+  
+  {% assign even_odd = number_printed | modulo: 2 %}
+  {% if even_odd == 1 %}
+  </div>
+  {% endif %}
+</div>
+  
+
+<ul id="profileTabs" style="padding: 0 10px;" class="nav nav-tabs nav-justified">
+  <li class="active"><a href="#currentstudents" data-toggle="tab">Current Students</a></li>
+  <li><a href="#alumni" data-toggle="tab">Alumni</a></li>
+</ul>
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="currentstudents">
+    <div id="gridid" class="col-sm-12">
+      {{ content }}
+    </div>
+  </div>
+
+
+  <!-- {% assign undergrad = site.data.alumni.undergrad %} -->
+  <div role="tabpanel" style="padding: 0 10px;" class="tab-pane" id="alumni">
+  {% if site.data.alumni.postdoc[0] %}
+    <h3> Post Doctorate Students </h3>
+    <ul>
+    {% for student in site.data.alumni.postdoc %}
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% if site.data.alumni.phd[0] %}
+    <h3> PhD Students </h3>
+    <ul>
+    {% for student in site.data.alumni.phd %}
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.alumni.masters[0] %}
+    <h3> Masters Students </h3>
+    <ul>
+    {% for student in site.data.alumni.masters %}
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.alumni.external[0] %}
+    <h3> External </h3>
+    <ul>
+    {% for student in site.data.alumni.external %}
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.alumni.project_assistants[0] %}
+    <h3> Project Assistants </h3>
+    <ul>
+    {% for student in site.data.alumni.project_assistants %}
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.alumni.undergrad[0] %}
+    <h3> Undergrad Students </h3>
+    <ul>
+    {% for student in site.data.alumni.undergrad %}
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.alumni.interns[0] %}
+    <h3> Interns </h3>
+    <ul>
+    {% for student in site.data.alumni.interns %}
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</div>
+
+

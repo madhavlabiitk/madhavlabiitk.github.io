@@ -1,0 +1,283 @@
+# - name: 
+#   info: 
+#   next: 
+#   # optional
+#   webpage: 
+#   accomplishments: 
+
+- name: Devansh Agarwal
+  info: 2020
+  next: Amazon, Hyderabad
+  # optional
+  webpage: 
+  accomplishments: Silver Medal for Academic Excellence, BTech in Engineering Science
+
+- name: Ninad Akolekar
+  info: 2020
+  # next: 
+  # # optional
+  # webpage: 
+  # accomplishments: 
+
+- name: Udit Maniyar
+  info: 2020 
+  next: Amazon, Hyderabad
+  # # optional
+  # webpage: 
+  # accomplishments: 
+
+- name:  Sukrut Rao
+  info: 2019
+  next: PhD, Max Planck Institute
+  # optional
+  webpage: https://sukrutrao.github.io/
+  accomplishments: President of India Gold Medal
+
+
+- name: Vaibhav Sinha
+  info: 2019
+  next: Masters, UT-Austin
+  # optional
+  webpage: https://vbsinha.github.io/
+  accomplishments: Gold Medal for Academic Excellence and Extracurricular Activities
+
+
+- name: Vishwak Srinivasan
+  info: 2019
+  next: Masters in ML, CMU
+  # optional
+  webpage: https://vishwakftw.github.io/
+  accomplishments: 
+
+
+- name: Rahul Agarwal
+  info: 2019
+  next: Rakuten, Japan
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Aditya Gulati
+  info: 2019
+  next: Deep Learning Engineer, KLA, Chennai
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Sneha Reddy
+  info: 2018
+  next: Google AI Residency, Mountain View
+  # optional
+  webpage: 
+  accomplishments: Gold Medal for Academic Excellence and Extracurricular Activities
+
+
+- name: Bhavana Jain
+  info: 2018
+  next: Facebook AI Residency, Menlo Park -> UIUC
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Yash Chandarana
+  info: 2018
+  next: Masters, CMU
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Arjun D Cunha
+  info: 2018
+  next: Masters, Columbia
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Ayushi Patel
+  info: 2018
+  next: Masters, Univ of Illinois, Urbana-Champaign
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Ramakrishna R M
+  info: 2018
+  next: Masters, University of Lugano/IDSIA, Switzerland
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Tanya Marwah
+  info: 2017
+  next: Masters, CMU -> PhD in ML, CMU
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: B Akilesh
+  info: 2017
+  next: Adobe -> Masters, MILA, Univ of Montreal
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Akshita Mittel
+  info: 2017
+  next: Masters, CMU -> Amazon Lab 126 -> NVIDIA
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Phaneendra Babu
+  info: 2017
+  next: Salesforce
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Sahil Manocha
+  info: 2017
+  next: Masters, Columbia
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Hrishikesh Vaidya
+  info: 2017
+  next: Masters, Columbia
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Sreekar Reddy
+  info: 2017
+  next: Masters, Univ of Massachusetts, Amherst
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Surya Teja Chavali
+  info: 2017
+  next: Masters, Univ of Wisconsin, Madison
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Abhay Gupta
+  info: 2016
+  next:  Microsoft -> Masters, CMU
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Richik Jaiswal
+  info: 2016
+  next:  Hikari-Tsushin, Japan -> Masters, NYU
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Rohit Reddy
+  info: 2016
+  next: Masters, NYU
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Vemuru Kali Charan
+  info: 2016
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Abhinand Sai
+  info: 2016
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Sagar Adhikari
+  info: 2016
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Aditya Kamath
+  info: 2015
+  next: Masters, Georgia Tech -> Salesforce, CA
+  # optional
+  webpage: 
+  accomplishments: President of India Gold Medal for Academic Excellence
+
+
+- name: Aradhya Biswas
+  info: 2015
+  next: PhD, Georgia Tech
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Rishu Agrawal
+  info: 2015
+  next: Masters, ETH Zurich
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Sanjoti Thakare
+  info: 2015
+  next: Salesforce
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Ritvik Jaiswal
+  info: 2015
+  next: Masters, UCSD
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Bhargav Reddy
+  info: 2015
+  next: AMD R&D -> PhD, Princeton
+  # optional
+  webpage: 
+  accomplishments: 
+
+
+- name: Wupadrasta Sai Kiran
+  info: 2015
+  next: Qualcomm -> Adobe
+  # optional
+  webpage: 
+  accomplishments: 
+

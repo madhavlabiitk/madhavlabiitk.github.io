@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div id="publications" class="col-sm-12">
+  <h1 class="page-header">
+    Publications
+  </h1>
+
+  {% assign years = site.data.years | reverse %} {% for year in years %} {% assign papers =
+  site.data.publist | where: "year", year %} {% if papers[0] %} 
+  <div class="year" style="font-size: 40px; color: black;">{{ year }}</div>
+
+  {% for publi in papers %}
+  <div class="group" style="margin-bottom: 20px; line-height: 24px;">
+    <div style="font-size: 20px;">{{ publi.title }}</div>
+    <div style="font-size: 14px;"><em>{{ publi.authors }} </em></div>
+    <div style="font-size: 12px;">{{ publi.venue }}</div>
+    {% if publi.paper.url %}<a style="margin-right: 20px;" href="{{ publi.paper.url }}"
+      ><i class="fas fa-file-alt"></i> Paper</a
+    >
+    {% endif %} {% if publi.code.url %}<a style="margin-right: 20px;" href="{{ publi.code.url }}"
+      ><i class="fas fa-file-code"></i> Code</a
+    >
+    {% endif %} {% if publi.project_page.url %} {% assign internal = publi.project_page.url | split:
+    "//" %} {% if internal[1] %}
+    <a target="_blank" style="margin-right: 20px;" href="{{ publi.project_page.url }}"
+      ><i class="fas fa-file-invoice"></i> Project Page</a
+    >
+    {% else %}
+    <a
+      target="_blank"
+      style="margin-right: 20px;"
+      href="{{ site.url }}{{ site.baseurl }}/projectpages/{{ publi.project_page.url }}"
+      ><i class="fas fa-file-invoice"></i> Project Page</a
+    >
+    {% endif %} {% endif %}
+  </div>
+  {% endfor %} {% endif %} {% endfor %}
+</div>

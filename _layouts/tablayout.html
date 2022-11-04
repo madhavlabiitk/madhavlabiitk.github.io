@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<h1 class="page-header">
+  News and Awards
+</h1>
+
+<ul
+  id="profileTabs"
+  style="padding: 0 10px; margin-bottom: 50px;"
+  class="nav nav-tabs nav-justified"
+>
+  <li role="presentation" class="active"><a href="#news" data-toggle="tab">News</a></li>
+  <li><a role="presentation" href="#awards" data-toggle="tab">Awards</a></li>
+  <li><a role="presentation" href="#media" data-toggle="tab">Media Coverage</a></li>
+</ul>
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="news">
+    <div class="col-sm-12">
+      {% for article in site.data.news %}
+      <p style="color: #000;">
+        <span style="font-family: monaco, monospace; background-color: #f4733e38; color: #000000;"
+          >({{ article.date }})</span
+        >: {{ article.headline }}
+      </p>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div role="tabpanel" class="tab-pane" id="media">
+    <div class="col-sm-12">
+      {% include resources/media.html %}
+    </div>
+  </div>
+
+  <div role="tabpanel" class="tab-pane" id="awards">
+    <div class="col-sm-12">
+      {% include resources/awards.html %}
+    </div>
+  </div>
+</div>

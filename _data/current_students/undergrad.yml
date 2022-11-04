@@ -1,0 +1,97 @@
+
+- name: Soumi Chakraborty
+  photo: placeholder-f.jpg
+  desig: BTech Student
+  email: es19btech11017@iith.ac.in
+  webpage: 
+  affiliations: IIT Hyderabad
+  topics: Computer Vision, Computational Photography, Human Pose
+
+- name: Surgan Jandial
+  photo: cs17btech11038.jpg
+  desig: BTech Student
+  # info: "2019 - Present"
+  id: es16btech11024
+  email: es16btech11024@iith.ac.in
+  webpage: 
+  affiliations: IIT Hyderabad
+  topics:
+
+- name: Puneet Mangla
+  photo: cs17btech11029.jpg
+  desig: BTech Student
+  # info: "2019 - "
+  id: cs17btech11029
+  email: cs17btech11029@iith.ac.in
+  affiliations: IIT Hyderabad
+  google-scholar: https://scholar.google.com/citations?user=aHI6gloAAAAJ&hl=en
+  topics: Uncertainty and Robustness, Interpretability, Fewshot/Meta Learning, Limited and Large scale Image generation
+  webpage: https://puneet2000.github.io/
+
+- name: Yash Khasbhage
+  photo: cs17btech11044.jpg
+  desig: BTech Student
+  # info: "2019 - Present"
+  id: cs17btech11044
+  email: cs17btech11044@iith.ac.in
+  webpage: http://yashkhasbage25.github.io
+  affiliations: IIT Hyderabad
+  topics: Generalization and Memorization, Loss Landscapes
+
+
+- name: Vedant Singh
+  photo: placeholder.jpg
+  desig: BTech Student
+  # info: "2019 - Present"
+  id: cs18btech11047
+  email: cs18btech11047@iith.ac.in
+  affiliations: IIT Hyderabad
+  topics:
+
+- name: Raj Patil
+  photo: placeholder.jpg
+  desig: BTech Student
+  # info: "2020 - Present"
+  id: cs18btech11039
+  email: cs18btech11039@iith.ac.in
+  affiliations: IIT Hyderabad
+  topics:
+
+- name: Karan Bhukar
+  photo: placeholder.jpg
+  desig: BTech Student
+  # info: "2020 - Present"
+  id: cs18btech11021
+  email: cs18btech11021@iith.ac.in
+  affiliations: IIT Hyderabad
+  topics:
+
+- name: Shreyas Havaldar
+  photo: cs18btech11042.jpg
+  desig: BTech Student
+  # info: "2020 - Present"
+  id: cs18btech11042
+  email: cs18btech11042@iith.ac.in
+  affiliations: IIT Hyderabad
+  webpage: 
+  topics:
+
+- name: Nishant Reddy
+  photo: placeholder.jpg
+  desig: BTech Student
+  # info: "2020 - Present"
+  id: 
+  email: 
+  affiliations: IIT Hyderabad
+  webpage: 
+  topics:
+
+- name: Tarun Ram Menta
+  photo: placeholder.jpg
+  desig: BTech Student
+  # info: "2020 - Present"
+  id: 
+  email: ai19btech11004@iith.ac.in
+  affiliations: IIT Hyderabad
+  webpage: 
+  topics:

@@ -1,0 +1,14 @@
+# - name: 
+#   info: 
+#   next: 
+#   # optional
+#   webpage: 
+#   accomplishments: 
+
+- name: Sirnam Swetha
+  info: "2016 - 17 (Co-advisor, Advisor: Prof. C V Jawahar), IIIT-H"
+  next: Goldman Sachs
+  # optional
+  webpage: https://researchweb.iiit.ac.in/~sirnam.swetha/
+  accomplishments: 
+
